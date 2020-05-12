@@ -1,0 +1,31 @@
+#include <Stdio.h>
+int main()
+{
+	int marks,total;
+	printf("enter the marks");
+	scanf("%d",&marks);
+	total=(marks/5);
+	switch(total)
+	{
+		case 20: case 19: case 18:
+			case 17:printf("Grade A");
+				break;
+				case 16:
+					case 15:
+		case 14:printf("Grade B");
+			break;
+				case 13:
+					case 12:
+		case 11:
+				printf("Grade c");
+				break;
+				case 10:
+					case 9:
+		case 8:printf("Grade D");
+				break;
+			default:printf("fail");
+					break;
+							
+	}
+	return 0;
+}
